@@ -1,0 +1,20 @@
+{
+  "name": "warehouse-op",
+  "version": "1.0.0",
+  "description": "Warehouse Operator BTP Project",
+  "workspaces": [
+    "warehouse-op/*"
+  ],
+  "sapux": [
+    "warehouse-op/uimodule"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev-approuter -w=sap-btp-cap-warehouse-op"
+  },
+  "dependencies": {
+    "@sap/cds": "^9.1.0"
+  },
+  "author": "Shubhamkar Nalkar",
+  "license": "ISC"
+}
