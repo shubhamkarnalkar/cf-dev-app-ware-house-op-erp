@@ -1,0 +1,3 @@
+[submodule "sap-btp-cap-warehouse-op"]
+	path = sap-btp-cap-warehouse-op
+	url = https://github.com/shubhamkarnalkar/sap-btp-cap-warehouse-op
